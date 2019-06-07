@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_weight="0.5"
+        android:id="@+id/tv_book_name"
+        style="@style/BookTextView"/>
+
+    <TextView
+        android:layout_weight="0.25"
+        android:id="@+id/tv_page_count"
+        style="@style/BookTextView"/>
+
+    <TextView
+        android:layout_weight="0.25"
+        android:id="@+id/tv_book_price"
+        style="@style/BookTextView"/>
+
+</LinearLayout>
